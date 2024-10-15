@@ -11,6 +11,14 @@ if not set --query --universal fifc_open_keybinding
     set --universal fifc_open_keybinding ctrl-o
 end
 
+if not set --query --universal fifc_rm_cmd
+    set --universal fifc_rm_cmd rm
+end
+
+if not set --query --universal fifc_custom_fzf_opts
+    set --universal fifc_custom_fzf_opts
+end
+
 
 # Private
 set -gx _fifc_comp_count 0

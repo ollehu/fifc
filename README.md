@@ -51,6 +51,13 @@ By default fifc override `tab`, but you can assign another keybinding:
 set -U fifc_keybinding \cx
 ```
 
+fifc will also by default use `rm` to remove temporary files, this can changed:
+
+```fish
+# Use trash instead of rm
+set -U fifc_rm_cmd trash
+```
+
 fifc can use modern tools if available:
 
 | Prefer                                           | Fallback to | Used for                                  | Custom options     |
