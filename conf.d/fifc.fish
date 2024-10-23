@@ -13,7 +13,6 @@ if status is-interactive
     or set -U fifc_custom_fzf_opts
 
     for mode in default insert
-        bind --mode $mode \t _fifc
         bind --mode $mode $fifc_keybinding _fifc
     end
 
